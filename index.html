@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Sample</title>
+    <style>
+        
+
+        
+        #divContainer {
+            text-align: center;
+        }
+        .redText {
+            color: black;
+            background-color: #bebebe;
+        }
+        .redText:hover {
+            color: black;
+            background-color: #bdffdb;
+        }
+        div {
+            margin-bottom: 1rem;
+            font-size: large;
+        }
+    </style>
+    
+</head>
+
+<body style="background-color:#ff00f2;">
+    <div id="divContainer">
+        <h1 style="color: white;">Login</h1>
+        <div><input type="text" placeholder="Email" class="redText"></input></div>
+        <div><input type="password" placeholder="Password" class="redText"></input></div>
+        <div><button id="buttonLogin">Sign In</button></div>
+        <hr>
+    </div>
+    
+</body>
+
+<script>
+    alert("yo");
+    console.log("Hello World", 1 + 1);
+
+    let buttonLogin = document.querySelector("#buttonLogin")
+    buttonLogin.onclick = function () {
+        alert("Login Succesful.");
+    }
+</script>
+
+</html>
